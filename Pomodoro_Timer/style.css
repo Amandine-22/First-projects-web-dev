@@ -1,0 +1,55 @@
+:root {
+    font-size: 62.5%; /* 1rem = 10px */
+
+    --color-primary: hsl(21, 100%, 61%);
+    --color-secondary: hsl(345, 100%, 72%);
+    --color-font: hsla(0, 0%, 100%, 0.902);
+
+    --color-shadow: hsl(0, 36%, 35%);
+}
+
+#timer1 {
+    font-size: 8rem;              /* Taille du texte du timer */
+    font-weight: bold;           /* Texte en gras */
+    color: var(--color-font);    /* Couleur blanche (déjà dans tes variables) */
+    margin: 3rem auto;           /* Marge autour */
+    padding: 2rem;               /* Espace intérieur */
+    background-color: var(--color-shadow); /* Fond sombre */
+    border-radius: 1.5rem;       /* Bords arrondis */
+    width: fit-content;
+    box-shadow: 0 0.5rem 2rem rgba(255, 121, 31, 0.705); /* Ombre */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family : serif; 
+    text-align: center; 
+    background-color: #ff9c9c;
+    font-size:large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.button {
+    background-color: var(--color-secondary);
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: hsl(358, 78%, 59%);
+}

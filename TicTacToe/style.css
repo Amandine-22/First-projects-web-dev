@@ -1,0 +1,26 @@
+body {
+    font-family: impact;
+    text-align: center;
+    background-color: #f63232e3;
+  }
+  
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 2em;
+    background-color: rgb(254, 249, 230);
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
